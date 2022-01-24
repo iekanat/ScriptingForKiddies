@@ -1,11 +1,11 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="subtitle" content="&quot;Basics and Useful Tips&quot;">
-<meta name="author" content="&quot;Irfan Kanat&quot;">
-<meta name="titlepage-rule-color" content="&quot;360049&quot;">
-<meta name="titlepage" content="true">
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="titlepage" content="true">
+<meta name="subtitle" content="&quot;Basics and Useful Tips&quot;">
 <meta name="date" content="&quot;&lt;FIX THE DATE&gt;&quot;">
-<meta name="output" content="pdf_document">
 <meta name="titlepage-background" content="&quot;backgrounds/background1.pdf&quot;">
-<meta name="urlcolor" content="blue"><style>body {
+<meta name="author" content="&quot;Irfan Kanat&quot;">
+<meta name="urlcolor" content="blue">
+<meta name="titlepage-rule-color" content="&quot;360049&quot;">
+<meta name="output" content="pdf_document"><style>body {
   max-width: 980px;
   border: 1px solid #ddd;
   outline: 1300px solid #fff;
@@ -1080,8 +1080,8 @@ body .markdown-body
 <p>While we will focus on linux, with the relatively recent addition of powershell windows also finally has a semi-decent shell that is not totally pathetic.</p>
 <h2 id="file-structure">File Structure<a class="headerlink" href="#file-structure" title="Permanent link"></a></h2>
 <p><img alt="File Cabinet" src="/home/barbun/Dropbox%20%28CBS%29/RaghavaCybersecurityIndustriensFond/cybersecurity%7Egrant%7Eshare%7Efolder/courses-development/Course-02-CybersecurityFoundations/04_OperatingSystemsAndCommandline/figures/fileCabinet.jpg" title="File Cabinets" /></p>
-<p>When modern operating systems were being designed, we used an analogy that was at the time familiar to almost everyone.</p>
-<p>The analogy of a file system. In the old days, the paper files would be stored in cardboard folders that would be stored in filing cabinets. It is likely none of you have ever seen a filing system in all its glory but you are familiar with the files, folders, and directories from the icons you see in your operating systems.</p>
+<p>When modern operating systems were being designed, we used an analogy that was at the time familiar to almost everyone.The analogy of a file system. </p>
+<p>In the old days, the paper files would be stored in cardboard folders that would be stored in filing cabinets. It is likely none of you have ever seen a filing system in all its glory but you are familiar with the files, folders, and directories from the icons you see in your operating systems.</p>
 <p>The idea is that the files in the operating system are organized hierarchically and you can traverse between these files</p>
 <p><img alt="Files and Folders" src="/home/barbun/Dropbox%20%28CBS%29/RaghavaCybersecurityIndustriensFond/cybersecurity%7Egrant%7Eshare%7Efolder/courses-development/Course-02-CybersecurityFoundations/04_OperatingSystemsAndCommandline/figures/filesAndFolders.png" title="Files in a computer" /></p>
 <h2 id="traversing-the-file-structure-in-linux-command-line">Traversing the File Structure in Linux Command Line<a class="headerlink" href="#traversing-the-file-structure-in-linux-command-line" title="Permanent link"></a></h2>
@@ -1132,7 +1132,7 @@ body .markdown-body
 <p>You may want to pay attention to absolute or relative paths. When you are in a folder, you can just refer to the files with their names without needing to specify the absolute location of the file in the file system. This is the most basic example of the use of relative path. Relative paths only work if your context matches the context of the relative path.</p>
 <p><img alt="Relative Path" src="/home/barbun/Dropbox%20%28CBS%29/RaghavaCybersecurityIndustriensFond/cybersecurity%7Egrant%7Eshare%7Efolder/courses-development/Course-02-CybersecurityFoundations/04_OperatingSystemsAndCommandline/figures/relativePath.png" title="Relative Path to Read a File" /></p>
 <p>Absolute Path is the exact address of the file. Specifying every folder along the way. It always works no matter your context. Problem is that it is a bit inflexible. So when the file is not in the exact same location in another system, it will fail miserably. </p>
-<p><img alt="Absolute Path" src="/home/barbun/Dropbox%20%28CBS%29/RaghavaCybersecurityIndustriensFond/cybersecurity%7Egrant%7Eshare%7Efolder/courses-development/Course-02-CybersecurityFoundations/04_OperatingSystemsAndCommandline/figures/absolutePath.png" title="Relative Path to Read a File" /></p>
+<p><img alt="Absolute Path" src="/home/barbun/Dropbox%20%28CBS%29/RaghavaCybersecurityIndustriensFond/cybersecurity%7Egrant%7Eshare%7Efolder/courses-development/Course-02-CybersecurityFoundations/04_OperatingSystemsAndCommandline/figures/absolutePath.png" title="Absolute Path to Read a File" /></p>
 <p>If the difference between absolute and relative paths is not immediately clear to you, don&rsquo;t worry. It will become clear as you have headaches caused by misspecifying the path one way or another.</p>
 <h2 id="file-system-operations">File System Operations<a class="headerlink" href="#file-system-operations" title="Permanent link"></a></h2>
 <p>Getting around in the file structure is great, but wouldn&rsquo;t it be better if we could do more? Here are some additional commands you may want to know about.</p>

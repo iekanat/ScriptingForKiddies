@@ -68,7 +68,7 @@ You may want to pay attention to absolute or relative paths. When you are in a f
 
 Absolute Path is the exact address of the file. Specifying every folder along the way. It always works no matter your context. Problem is that it is a bit inflexible. So when the file is not in the exact same location in another system, it will fail miserably. 
 
-![Absolute Path](figures/absolutePath.png "Relative Path to Read a File")
+![Absolute Path](figures/absolutePath.png "Absolute Path to Read a File")
 
 If the difference between absolute and relative paths is not immediately clear to you, don't worry. It will become clear as you have headaches caused by misspecifying the path one way or another.
 
