@@ -39,7 +39,7 @@ The module heavily relies on Module 04, Linux Command Line basics. Therefore, I 
 
 [03 - Options](M5_03_Options.md) In this activity we will learn about passign options to scripts.
 
-[04 - Cron: Mastering Timed Tasks](M5_Cron.md) In this activity we will learn how to schedule our scripts to run regularly.
+[04 - Cron: Mastering Timed Tasks](M5_04_Cron.md) In this activity we will learn how to schedule our scripts to run regularly.
 
 [Exercise 2]() Write a backup script.
 
