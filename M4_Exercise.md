@@ -20,10 +20,10 @@ Once you find the flag, go back to the challenges page of your haaukins web site
 
 To begin you will need to connect to another computer using ssh. Here is how you do it:
 
-1- Open the terminal window.
-2- Type in the following without the quotation marks: 'ssh user1@beginner.com'
-3- When prompted enter the following password: haaukins
-4- If you see something that looks like what is in the image below, you are ready.
+1. Open the terminal window.
+2. Type in the following without the quotation marks: 'ssh user1@beginner.com'
+3. When prompted enter the following password: haaukins
+4. If you see something that looks like what is in the image below, you are ready.
 
 ![SSH connection successful](figures/Exercise1.png)
 
