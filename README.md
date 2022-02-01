@@ -33,7 +33,7 @@ In this module we will learn about scripting in Linux. How to automate and sched
 
 The module heavily relies on Module 04, Linux Command Line basics. Therefore, I would recommend that the students go through Module 04 before tackling this module.
 
-[01 - \#\! Where it all Starts](M05_01_SheBang.md) In this activity we will learn how to write our first script.
+[01 - \#\! Where it all Starts](M5_01_SheBang.md) In this activity we will learn how to write our first script.
 
 [02 - Getting into Arguments With a Script](M5_02_Arguments.md) In this activity we will learn how to use arguments with scripts.
 
