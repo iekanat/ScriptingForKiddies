@@ -164,16 +164,6 @@ Below you can see how options help us avoid issues with ordering.
 
 [![Options help avoid the ordering issue](figures/addressScript.gif)](videos/addressScript.mp4 "Click to watch with audio")
 
-## Expand on It
-
-Here is a short exercise for you. Below are the requirements, write a script that accomplishes what is outlined below:
-
-+ The script should be named backup.sh
-+ The script should allow user to compress a folder the user can specify in the arguments.
-+ Compressed files should be protected by a random 16 digit alpha numeric password.
-+ The script should allow the user to uncompress an archive the user can specify in the arguments with the specified password.
-+ The user should be allowed to alter compress/uncompress functionality with options.
-+ The script should append the current date and time, random password used and the folder compressed into a file named backup.log.
 
 
 
