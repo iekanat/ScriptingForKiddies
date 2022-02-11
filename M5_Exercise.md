@@ -70,8 +70,8 @@ The stress of managing our growing stress is getting to us and we need professio
 * The script should provide a help option.
 * The help functionality should be implemented as a function.
 * When the script is called with -h option, it should display an explanation of what the script does including the expected arguments and options.
-* If the script is called with an invlaid option, it display the message: "ERROR: Invalid option".
-* If the script is called with an invlaid option, it should terminate with error code 2.
+* If the script is called with an invalid option, it display the message: "ERROR: Invalid option".
+* If the script is called with an invalid option, it should terminate with error code 2.
 * The target directories to be backed up shall be declared in a variable named target.
 * The target variable should be populated with the arguments passed to the script from the command line.
 * Each directory in target variable shall be separated by spaces.
@@ -79,7 +79,7 @@ The stress of managing our growing stress is getting to us and we need professio
 * The script shall compress the contents of target folders.
 * The compression should be done using TAR using gzip.
 * The backup file should be stored in destination directory.
-* The backup file should be named BACKUP_YYMMDD.tgz (YYMMDD standing for Year Month day of the backup)
+* The backup file should be named BACKUP_YYMMDD.tgz (YYMMDD standing for Year Month Day of the backup)
 * The script should record the current date and name of the backup file in a log file once backup is finished.
 * The log file should be stored in destination directory.
 * The log file should be named BACKUP.log
@@ -90,7 +90,7 @@ Schedule the script to run every fifteen minutes.
 
 ## Name That Thing
 
-You know you can backup the files with long passwords... You can also delete the files you already have backed up... You may even do this to files of other people... 
+You know you can backup the files and encrypt them with long passwords in the process... You can also delete the files you already have backed up... You may even do this to files of other people... 
 
 This makes me think of something... It is at the tip of my tongue... What would you call an involuntary backup service?
 

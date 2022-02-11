@@ -41,7 +41,7 @@ The module heavily relies on Module 04, Linux Command Line basics. Therefore, I 
 
 [04 - Cron: Mastering Timed Tasks](M5_04_Cron.md) In this activity we will learn how to schedule our scripts to run regularly.
 
-[Exercise 2]() Write a backup script.
+[Exercise 2](M5_Exercise.md) Write a backup script.
 
 
 
