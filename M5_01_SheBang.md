@@ -1,6 +1,6 @@
 ---
 title: "Scripting for Kiddies"
-subtitle: "\#\! Where It All Starts"
+subtitle: "#! Where It All Starts"
 author: "Irfan Kanat"
 date: "<FIX THE DATE>"
 output: pdf_document
