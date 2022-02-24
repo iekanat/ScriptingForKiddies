@@ -102,7 +102,7 @@ After conditional execution, most common task is iteration.
 
 Basic for loop syntax is as follows:
 
-    list="1 2 3"
+    list=(1 2 3)
     
 	for iterator in list
 	    do
